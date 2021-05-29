@@ -1,9 +1,13 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "team": {
+    "teamID": "1",
+    "teamName": "West Ham United",
+    "shortName": "WHU",
+    "city": "London",
+    "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+    "homeVenue": {
+      "name": "London Stadium"
+    },
+    "players": []
   }
+}
