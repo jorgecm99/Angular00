@@ -1,0 +1,13 @@
+{
+    "team": {
+      "teamID": "1",
+      "teamName": "West Ham United",
+      "shortName": "WHU",
+      "city": "London",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    }
+  }

@@ -1,0 +1,11 @@
+<p>header works!</p>
+
+<header>
+    <nav>
+        <ul>
+            <li *ngFor="let items of headerNav">
+                <p [routerLink] = "[items.path]"></p>{{items.name}}
+            </li>
+        </ul>
+    </nav>
+</header>
