@@ -1,13 +1,421 @@
 {
-  "team": {
-    "teamID": "1",
-    "teamName": "West Ham United",
-    "shortName": "WHU",
-    "city": "London",
-    "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
-    "homeVenue": {
-      "name": "London Stadium"
+  "team":[
+    {
+      "teamID": "1",
+      "teamName": "Arizona Cardinals",
+      "conference": "NFC",
+      "city": "Phoenix",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Arizona",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
     },
-    "players": []
-  }
+
+    {
+      "teamID": "2",
+      "teamName": "Atlanta Falcons",
+      "conference": "NFC",
+      "city": "Atlanta",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Georgia",
+      "homeVenue": {
+        "name": "Mercedes Benz-Arena"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "3",
+      "teamName": "Baltimore Ravens",
+      "conference": "AFC",
+      "city": "Baltimore",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Maryland",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "4",
+      "teamName": "Buffalo Bills",
+      "conference": "AFC",
+      "city": "Buffalo",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "5",
+      "teamName": "Carolina Panthers",
+      "conference": "NFC",
+      "city": "Charlotte",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Carolina",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "6",
+      "teamName": "Chicago Bears",
+      "conference": "NFC",
+      "city": "Chicago",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Illinois",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "7",
+      "teamName": "Cincinnati Bengals",
+      "conference": "AFC",
+      "city": "Cincinnati",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Ohio",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "8",
+      "teamName": "Cleveland Browns",
+      "conference": "AFC",
+      "city": "Cleveland",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Ohio",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "9",
+      "teamName": "Dallas Cowboys",
+      "conference": "NFC",
+      "city": "Dallas",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Texas",
+      "homeVenue": {
+        "name": "AT&T Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "10",
+      "teamName": "Denver Broncos",
+      "conference": "AFC",
+      "city": "Denver",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Colorado",
+      "homeVenue": {
+        "name": "Mile High Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "11",
+      "teamName": "Detroit Lions",
+      "conference": "NFC",
+      "city": "Detroit",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Michigan",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "12",
+      "teamName": "Green Bay Packers",
+      "conference": "NFC",
+      "city": "Green Bay",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Wisconsin",
+      "homeVenue": {
+        "name": "Lambeau Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "13",
+      "teamName": "Houston Texans",
+      "conference": "AFC",
+      "city": "Houston",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Texas",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "14",
+      "teamName": "Indianapolis Colts",
+      "conference": "AFC",
+      "city": "Indianapolis",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Indiana",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "15",
+      "teamName": "Jacksonville Jaguars",
+      "conference": "AFC",
+      "city": "Jacksonville",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Florida",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "16",
+      "teamName": "Kansas City Chiefs",
+      "conference": "AFC",
+      "city": "Kansas City",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Kansas",
+      "homeVenue": {
+        "name": "Arrowhead Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "17",
+      "teamName": "Las Vegas Raiders",
+      "conference": "AFC",
+      "city": "Las Vegas",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Nevada",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "18",
+      "teamName": "Los Angeles Chargers",
+      "conference": "AFC",
+      "city": "Los Angeles",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "19",
+      "teamName": "Los Angeles Rams",
+      "conference": "NFC",
+      "city": "Los Angeles",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "20",
+      "teamName": "Miami Dolphins",
+      "conference": "AFC",
+      "city": "Miami",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Florida",
+      "homeVenue": {
+        "name": "HardRock Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "21",
+      "teamName": "Minnesota Vikings",
+      "conference": "NFC",
+      "city": "Minneapolis",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Minnesota",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "22",
+      "teamName": "New England Patriots",
+      "conference": "AFC",
+      "city": "Boston",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Massachusetts",
+      "homeVenue": {
+        "name": "Gillette Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "23",
+      "teamName": "New Orleans Saints",
+      "conference": "NFC",
+      "city": "New Orleans",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Louisiana",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "24",
+      "teamName": "New York Giants",
+      "conference": "NFC",
+      "city": "New York",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "25",
+      "teamName": "New York Jets",
+      "conference": "AFC",
+      "city": "New York",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "26",
+      "teamName": "Philadelphia Eagles",
+      "conference": "NFC",
+      "city": "Philadelphia",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Pensilvania",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "27",
+      "teamName": "Pittsburgh Steelers",
+      "conference": "AFC",
+      "city": "Pittsburgh",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Pensilvania",
+      "homeVenue": {
+        "name": "Heinz Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "28",
+      "teamName": "San Francisco 49ers",
+      "conference": "NFC",
+      "city": "San Francisco",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "Levis Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "29",
+      "teamName": "Seattle Seahawks",
+      "conference": "AFC",
+      "city": "Seattle",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Washington",
+      "homeVenue": {
+        "name": "Century Link Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "30",
+      "teamName": "Tampa Bay Buccaneers",
+      "conference": "NFC",
+      "city": "Tampa Bay",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Forida",
+      "homeVenue": {
+        "name": "Raymound James Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "31",
+      "teamName": "Tennessee Titans",
+      "conference": "AFC",
+      "city": "Nashville",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Tennessee",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "32",
+      "teamName": "Washington Football Team",
+      "conference": "NFC",
+      "city": "Washington",
+      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "state": "Washington DC",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    }
+
+  ]
 }
+
