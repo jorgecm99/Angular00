@@ -10,19 +10,19 @@ export class HeaderComponent implements OnInit {
   public headerNav?: Iheader[] = [
     {
       name:'Home',
-      patch:'',
+      path:'',
     },
     {
       name:'Teams',
-      patch:'',
+      path:'',
     },
     {
       name:'Players',
-      patch:'',
+      path:'',
     },
     {
       name:'Tickets',
-      patch:'',
+      path:'',
     },
     
   ]

@@ -1,5 +1,5 @@
 export interface Iheader {
-    id: number,
+    path: string,
     name: string,
     
 }
