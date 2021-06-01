@@ -1,13 +1,420 @@
 {
-    "team": {
+  "team":[
+    {
       "teamID": "1",
-      "teamName": "West Ham United",
-      "shortName": "WHU",
-      "city": "London",
-      "logo": "https://api.statorium.com/media/bearleague/bl15524865522808.png",
+      "teamName": "Arizona Cardinals",
+      "conference": "NFC",
+      "city": "Phoenix",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/arizona-cardinals-logo-transparent.png",
+      "state": "Arizona",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "2",
+      "teamName": "Atlanta Falcons",
+      "conference": "NFC",
+      "city": "Atlanta",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/atlanta-falcons-logo-transparent.png",
+      "state": "Georgia",
+      "homeVenue": {
+        "name": "Mercedes Benz-Arena"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "3",
+      "teamName": "Baltimore Ravens",
+      "conference": "AFC",
+      "city": "Baltimore",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/baltimore-ravens-logo-transparent.png",
+      "state": "Maryland",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "4",
+      "teamName": "Buffalo Bills",
+      "conference": "AFC",
+      "city": "Buffalo",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/buffalo-bills-logo-transparent.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "5",
+      "teamName": "Carolina Panthers",
+      "conference": "NFC",
+      "city": "Charlotte",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/carolina-panthers-logo-transparent.png",
+      "state": "Carolina",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "6",
+      "teamName": "Chicago Bears",
+      "conference": "NFC",
+      "city": "Chicago",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/chicago-bears-logo-transparent.png",
+      "state": "Illinois",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "7",
+      "teamName": "Cincinnati Bengals",
+      "conference": "AFC",
+      "city": "Cincinnati",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/cincinnati-bengals-logo-transparent.png",
+      "state": "Ohio",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "8",
+      "teamName": "Cleveland Browns",
+      "conference": "AFC",
+      "city": "Cleveland",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/cleveland-browns-logo-transparent.png",
+      "state": "Ohio",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "9",
+      "teamName": "Dallas Cowboys",
+      "conference": "NFC",
+      "city": "Dallas",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/dallas-cowboys-logo-transparent.png",
+      "state": "Texas",
+      "homeVenue": {
+        "name": "AT&T Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "10",
+      "teamName": "Denver Broncos",
+      "conference": "AFC",
+      "city": "Denver",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/denver-broncos-logo-transparent.png",
+      "state": "Colorado",
+      "homeVenue": {
+        "name": "Mile High Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "11",
+      "teamName": "Detroit Lions",
+      "conference": "NFC",
+      "city": "Detroit",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/detroit-lions-logo-transparent.png",
+      "state": "Michigan",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "12",
+      "teamName": "Green Bay Packers",
+      "conference": "NFC",
+      "city": "Green Bay",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/green-bay-packers-logo-transparent.png",
+      "state": "Wisconsin",
+      "homeVenue": {
+        "name": "Lambeau Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "13",
+      "teamName": "Houston Texans",
+      "conference": "AFC",
+      "city": "Houston",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/houston-texans-logo-transparent.png",
+      "state": "Texas",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "14",
+      "teamName": "Indianapolis Colts",
+      "conference": "AFC",
+      "city": "Indianapolis",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/indianapolis-colts-logo-transparent.png",
+      "state": "Indiana",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "15",
+      "teamName": "Jacksonville Jaguars",
+      "conference": "AFC",
+      "city": "Jacksonville",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/jacksonville-jaguars-logo-transparent.png",
+      "state": "Florida",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "16",
+      "teamName": "Kansas City Chiefs",
+      "conference": "AFC",
+      "city": "Kansas City",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/kansas-city-chiefs-logo-transparent.png",
+      "state": "Kansas",
+      "homeVenue": {
+        "name": "Arrowhead Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "17",
+      "teamName": "Las Vegas Raiders",
+      "conference": "AFC",
+      "city": "Las Vegas",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/oakland-raiders-logo-transparent.png",
+      "state": "Nevada",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "18",
+      "teamName": "Los Angeles Chargers",
+      "conference": "AFC",
+      "city": "Los Angeles",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/los-angeles-chargers-logo-transparent.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "19",
+      "teamName": "Los Angeles Rams",
+      "conference": "NFC",
+      "city": "Los Angeles",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/los-angeles-rams-logo-transparent.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "20",
+      "teamName": "Miami Dolphins",
+      "conference": "AFC",
+      "city": "Miami",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/miami-dolphins-logo-transparent.png",
+      "state": "Florida",
+      "homeVenue": {
+        "name": "HardRock Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "21",
+      "teamName": "Minnesota Vikings",
+      "conference": "NFC",
+      "city": "Minneapolis",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/minnesota-vikings-logo-transparent.png",
+      "state": "Minnesota",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "22",
+      "teamName": "New England Patriots",
+      "conference": "AFC",
+      "city": "Boston",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/new-england-patriots-logo-transparent.png",
+      "state": "Massachusetts",
+      "homeVenue": {
+        "name": "Gillette Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "23",
+      "teamName": "New Orleans Saints",
+      "conference": "NFC",
+      "city": "New Orleans",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/new-orleans-saints-logo-transparent.png",
+      "state": "Louisiana",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "24",
+      "teamName": "New York Giants",
+      "conference": "NFC",
+      "city": "New York",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/new-york-giants-logo-transparent.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "25",
+      "teamName": "New York Jets",
+      "conference": "AFC",
+      "city": "New York",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/new-york-jets-logo-transparent.png",
+      "state": "New York",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "26",
+      "teamName": "Philadelphia Eagles",
+      "conference": "NFC",
+      "city": "Philadelphia",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/philadelphia-eagles-logo-transparent.png",
+      "state": "Pensilvania",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "27",
+      "teamName": "Pittsburgh Steelers",
+      "conference": "AFC",
+      "city": "Pittsburgh",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/pittsburgh-steelers-logo-transparent.png",
+      "state": "Pensilvania",
+      "homeVenue": {
+        "name": "Heinz Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "28",
+      "teamName": "San Francisco 49ers",
+      "conference": "NFC",
+      "city": "San Francisco",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/san-francisco-49ers-logo-transparent.png",
+      "state": "California",
+      "homeVenue": {
+        "name": "Levis Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "29",
+      "teamName": "Seattle Seahawks",
+      "conference": "AFC",
+      "city": "Seattle",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/seattle-seahawks-logo-transparent.png",
+      "state": "Washington",
+      "homeVenue": {
+        "name": "Century Link Field"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "30",
+      "teamName": "Tampa Bay Buccaneers",
+      "conference": "NFC",
+      "city": "Tampa Bay",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/tampa-bay-buccaneers-logo-transparent.png",
+      "state": "Forida",
+      "homeVenue": {
+        "name": "Raymound James Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "31",
+      "teamName": "Tennessee Titans",
+      "conference": "AFC",
+      "city": "Nashville",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/tennessee-titans-logo-transparent.png",
+      "state": "Tennessee",
+      "homeVenue": {
+        "name": "London Stadium"
+      },
+      "players": []
+    },
+
+    {
+      "teamID": "32",
+      "teamName": "Washington Football Team",
+      "conference": "NFC",
+      "city": "Washington",
+      "logo": "https://cdn.freebiesupply.com/images/large/2x/washington-redskins-logo-transparent.png",
+      "state": "Washington DC",
       "homeVenue": {
         "name": "London Stadium"
       },
       "players": []
     }
-  }
+
+  ]
+}

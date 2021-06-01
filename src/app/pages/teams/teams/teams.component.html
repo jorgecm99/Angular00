@@ -1,1 +1,3 @@
-<p>teams works!</p>
+<ng-container *ngFor="let team of teams">
+    <app-teams-details [team]="team"></app-teams-details>
+</ng-container>

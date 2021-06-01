@@ -10,20 +10,20 @@ export class HeaderComponent implements OnInit {
   public headerNav?: Iheader[] = [
     {
       name:'Home',
-      path:'',
+      path:'home',
     },
     {
       name:'Teams',
-      path:'',
+      path:'teams',
     },
     {
       name:'Players',
-      path:'',
+      path:'players',
     },
-    {
+    /*{
       name:'Tickets',
       path:'',
-    },
+    },*/
     
   ]
 

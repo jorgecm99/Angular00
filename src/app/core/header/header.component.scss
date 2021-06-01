@@ -1,0 +1,18 @@
+@import '../../../styles/colors';
+
+header {
+    height: 100px;
+    color: $header-color;
+    nav {
+        padding: 0 10%;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            li {
+                cursor: pointer;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

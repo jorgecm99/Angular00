@@ -1,10 +1,8 @@
-<p>header works!</p>
-
 <header>
     <nav>
         <ul>
             <li *ngFor="let items of headerNav">
-                <p [routerLink] = "[items.path]"></p>{{items.name}}
+                <p [routerLink] = "[items.path]">{{items.name}}</p>
             </li>
         </ul>
     </nav>
