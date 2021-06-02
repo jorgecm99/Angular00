@@ -14,11 +14,11 @@ export class TeamsComponent implements OnInit {
   constructor(private iteamsService: IteamsService) { }
 
   ngOnInit(): void {
-    this.getTeams;
+    this.getTeams();
   }
 
-  public getTeams() {
-    this.iteamsService.getTeams().subscribe((data: any)=>{
+  public getTeams(): void {
+    this.iteamsService.getTeams().subscribe((data : any) =>{
       this.myTeams = data;
     })
   }

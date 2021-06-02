@@ -1,5 +1,24 @@
 {
-  "team":[
+  "home": [
+    {
+      "teamdID": "1",
+      "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png",
+    },
+
+    {
+      "teamdID": "1",
+      "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png",
+    },
+
+
+  ]
+}
+
+
+
+
+{
+  "teams":[
     {
       "teamID": "1",
       "teamName": "Arizona Cardinals",
@@ -8,7 +27,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/arizona-cardinals-logo-transparent.png",
       "state": "Arizona",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "State Farm Stadium"
       },
       "players": []
     },
@@ -34,7 +53,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/baltimore-ravens-logo-transparent.png",
       "state": "Maryland",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "MT&T Bank Stadium"
       },
       "players": []
     },
@@ -47,7 +66,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/buffalo-bills-logo-transparent.png",
       "state": "New York",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Highmark Stadium"
       },
       "players": []
     },
@@ -60,7 +79,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/carolina-panthers-logo-transparent.png",
       "state": "Carolina",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Bank of American Stadium"
       },
       "players": []
     },
@@ -73,7 +92,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/chicago-bears-logo-transparent.png",
       "state": "Illinois",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Soldier Field"
       },
       "players": []
     },
@@ -86,7 +105,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/cincinnati-bengals-logo-transparent.png",
       "state": "Ohio",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Paul Brown Stadium"
       },
       "players": []
     },
@@ -99,7 +118,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/cleveland-browns-logo-transparent.png",
       "state": "Ohio",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "FirstEnergy Stadium"
       },
       "players": []
     },
@@ -138,7 +157,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/detroit-lions-logo-transparent.png",
       "state": "Michigan",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Ford Field"
       },
       "players": []
     },
@@ -164,7 +183,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/houston-texans-logo-transparent.png",
       "state": "Texas",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Relliant Stadium"
       },
       "players": []
     },
@@ -177,7 +196,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/indianapolis-colts-logo-transparent.png",
       "state": "Indiana",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Lucas Oil Stadium"
       },
       "players": []
     },
@@ -190,7 +209,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/jacksonville-jaguars-logo-transparent.png",
       "state": "Florida",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "TIAA Stadium"
       },
       "players": []
     },
@@ -216,7 +235,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/oakland-raiders-logo-transparent.png",
       "state": "Nevada",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Allegiant Stadium"
       },
       "players": []
     },
@@ -229,7 +248,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/los-angeles-chargers-logo-transparent.png",
       "state": "California",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "SoFi Stadium"
       },
       "players": []
     },
@@ -242,7 +261,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/los-angeles-rams-logo-transparent.png",
       "state": "California",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "SoFi Stadium"
       },
       "players": []
     },
@@ -268,7 +287,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/minnesota-vikings-logo-transparent.png",
       "state": "Minnesota",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "US Bank Stadium"
       },
       "players": []
     },
@@ -294,7 +313,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/new-orleans-saints-logo-transparent.png",
       "state": "Louisiana",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Mercedes-Benz Stadium"
       },
       "players": []
     },
@@ -307,7 +326,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/new-york-giants-logo-transparent.png",
       "state": "New York",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Giants Stadium"
       },
       "players": []
     },
@@ -320,7 +339,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/new-york-jets-logo-transparent.png",
       "state": "New York",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Giants Stadium"
       },
       "players": []
     },
@@ -333,7 +352,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/philadelphia-eagles-logo-transparent.png",
       "state": "Pensilvania",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Veterans Stadium"
       },
       "players": []
     },
@@ -398,7 +417,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/tennessee-titans-logo-transparent.png",
       "state": "Tennessee",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "Nissan Stadium"
       },
       "players": []
     },
@@ -411,7 +430,7 @@
       "logo": "https://cdn.freebiesupply.com/images/large/2x/washington-redskins-logo-transparent.png",
       "state": "Washington DC",
       "homeVenue": {
-        "name": "London Stadium"
+        "name": "FedEx Field"
       },
       "players": []
     }

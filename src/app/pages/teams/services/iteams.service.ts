@@ -5,7 +5,7 @@ import { HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class IteamsService {
-  public apiNFL: string = 'http://localhost:3000/team';
+  public apiNFL: string = 'http://localhost:3000/teams';
 
   constructor(private http: HttpClient) { }
 
