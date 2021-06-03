@@ -7,6 +7,6 @@ export interface Iteams {
 }
 
 export interface Ihome {
-    teamID: number,
+    id: number,
     woodmark: string,
 }

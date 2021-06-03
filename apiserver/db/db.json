@@ -1,23 +1,79 @@
 {
-  "home": [
+  "home":[
     {
-      "teamdID": "1",
-      "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png",
+      "id": "1",
+      "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png"
     },
 
     {
-      "teamdID": "1",
-      "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png",
+      "id": "2",
+      "woodmark": "https://content.sportslogos.net/logos/7/173/full/6807_atlanta_falcons-wordmark-2020.png"
     },
 
+    {
+      "id": "3",
+      "woodmark": "https://content.sportslogos.net/logos/7/153/full/323.png"
+    },
 
-  ]
-}
+    {
+      "id": "4",
+      "woodmark": "https://content.sportslogos.net/logos/7/149/full/4364_buffalo_bills-wordmark-2011.png"
+    },
+
+    {
+      "id": "5",
+      "woodmark": "https://content.sportslogos.net/logos/7/174/full/2979_carolina_panthers-wordmark-1995.png"
+    },
+
+    {
+      "id": "6",
+      "woodmark": "https://content.sportslogos.net/logos/7/169/full/366.png"
+    },
+
+    {
+      "id": "7",
+      "woodmark": "https://content.sportslogos.net/logos/7/154/full/2234.gif"
+    },
+
+    {
+      "id": "8",
+      "woodmark": "https://content.sportslogos.net/logos/7/155/full/9906_cleveland_browns-wordmark-2015.png"
+    },
+
+    {
+      "id": "9",
+      "woodmark": "https://content.sportslogos.net/logos/7/165/full/412.gif"
+    },
+
+    {
+      "id": "10",
+      "woodmark": "https://content.sportslogos.net/logos/7/161/full/mvxsk3btmpewzxzovglilwc4w.gif"
+    },
+
+    {
+      "id": "11",
+      "woodmark": "https://content.sportslogos.net/logos/7/170/full/1546_detroit_lions-wordmark-2017.png"
+    },
+
+    {
+      "id": "12",
+      "woodmark": "https://content.sportslogos.net/logos/7/171/full/566.png"
+    },
+
+    {
+      "id": "13",
+      "woodmark": "https://content.sportslogos.net/logos/7/157/full/1127_houston_texans-wordmark-2002.png"
+    },
+
+    {
+      "id": "14",
+      "woodmark": "https://content.sportslogos.net/logos/7/158/full/8994_indianapolis_colts-wordmark-2020.png"
+    }  
+
+  ],
 
 
 
-
-{
   "teams":[
     {
       "teamID": "1",
