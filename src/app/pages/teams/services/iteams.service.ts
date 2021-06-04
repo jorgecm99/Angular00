@@ -12,4 +12,6 @@ export class IteamsService {
   public getTeams () {
     return this.http.get(this.apiNFL);
   }
+
+  
 }

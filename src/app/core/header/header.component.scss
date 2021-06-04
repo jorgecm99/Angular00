@@ -1,17 +1,21 @@
 @import '../../../styles/colors';
 
 header {
+    background-color: $header-color;
     height: 100px;
-    color: $header-color;
+    color: $div-team-color;
+    display: flex;
     nav {
         padding: 0 10%;
-        ul {
+        .header-list {
             list-style: none;
             display: flex;
             justify-content: space-evenly;
             li {
                 cursor: pointer;
                 text-transform: uppercase;
+                font-size: x-large;
+                font-weight: 600;
             }
         }
     }

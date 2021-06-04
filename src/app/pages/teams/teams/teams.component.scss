@@ -1,0 +1,21 @@
+.team-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+    
+    ul {
+        text-align: center;
+        max-width: 380px;
+        margin: 20px auto;
+        img {
+            width: 100%;
+            
+            
+        }
+    }
+}

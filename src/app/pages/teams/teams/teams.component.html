@@ -1,3 +1,23 @@
-<ng-container *ngFor="let items of myTeams">
-    <app-teams-details [teams]="items"></app-teams-details>
-</ng-container>
+FOOTBALL TEAM
+<div class="team-class">
+    <ul *ngFor = "let name of myTeams">
+        <img src="{{name.logo}}">
+        <app-teams-details [myDetails]="currentTeam"></app-teams-details>
+    </ul>
+</div>
+
+
+
+    
+
+       
+
+
+
+
+
+
+
+
+
+

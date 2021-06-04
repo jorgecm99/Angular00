@@ -20,10 +20,10 @@ export class HeaderComponent implements OnInit {
       name:'Players',
       path:'players',
     },
-    /*{
+    {
       name:'Tickets',
-      path:'',
-    },*/
+      path:'tickets',
+    },
     
   ]
 

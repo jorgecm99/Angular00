@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Iteams } from '../models/iteams';
+import {  Iteams } from '../models/iteams';
 
 import { IteamsService } from '../services/iteams.service';
 
@@ -9,9 +9,10 @@ import { IteamsService } from '../services/iteams.service';
   styleUrls: ['./teams.component.scss']
 })
 export class TeamsComponent implements OnInit {
-  public myTeams?: Iteams[];
+  public myTeams?: Iteams[]=[];
+  public currentTeam?: Iteams;
 
-  constructor(private iteamsService: IteamsService) { }
+  constructor(private iteamsService: IteamsService) {}
 
   ngOnInit(): void {
     this.getTeams();
@@ -20,6 +21,7 @@ export class TeamsComponent implements OnInit {
   public getTeams(): void {
     this.iteamsService.getTeams().subscribe((data : any) =>{
       this.myTeams = data;
+      this.currentTeam = this.myTeams? this.myTeams[0]: undefined;
     })
   }
 

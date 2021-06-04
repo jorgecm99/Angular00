@@ -8,7 +8,7 @@ import { HomePageService } from '../services/home-page.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public myList?: Ihome;
+  public myList?: any;
 
   constructor(private homePageService : HomePageService) { }
 

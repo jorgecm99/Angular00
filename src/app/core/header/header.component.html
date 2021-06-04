@@ -1,6 +1,14 @@
 <header>
-    <nav>
+    <div>
         <ul>
+            <li>
+                <a href="nfl.com"><img src="../../../assets/images/nfl-logo-0.png" alt="logo" width="10%"></a>
+            </li>
+        </ul>
+    </div>
+    
+    <nav>
+        <ul class="header-list">
             <li *ngFor="let items of headerNav">
                 <p [routerLink] = "[items.path]">{{items.name}}</p>
             </li>

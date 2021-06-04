@@ -1,0 +1,19 @@
+.home-class {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    ul {
+        max-width: 300px;
+        margin-top: 20px;
+        /*margin: 20px auto;*/
+        img {
+            width: 100%;
+        }
+
+    }
+
+}

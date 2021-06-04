@@ -8,7 +8,8 @@ import { Iteams } from '../models/iteams';
   styleUrls: ['./teams-details.component.scss']
 })
 export class TeamsDetailsComponent implements OnInit {
-  @Input() public teams!: Iteams;
+  @Input() public myDetails?: Iteams;
+  
 
   constructor() { }
 
