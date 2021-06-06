@@ -5,12 +5,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class TicketsService {
-  public playersNFL: string = 'http://localhost:3000/players';
+  public ticketsNFL: string = 'http://localhost:3000/tickets';
 
 
   constructor(private http: HttpClient) { }
 
-  public getPlayers () {
-    return this.http.get(this.playersNFL)
+  public getTickets () {
+    return this.http.get(this.ticketsNFL)
   }
 }

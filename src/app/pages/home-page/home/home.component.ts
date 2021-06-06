@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   constructor(private homePageService : HomePageService) { }
 
   ngOnInit(): void {
+    
     this.getList();
   }
 

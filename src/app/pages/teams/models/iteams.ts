@@ -10,13 +10,12 @@ export interface Ivenue{
     name: string
 }
 
-export interface Iteam1 {
-    city: string,
+export interface Itickets {
+    teamID: number,
     conference: string,
     teamName: string,
-    state: string,
-    homeVenue: Ivenue,
-    logo: string
+    stadium: string,
+    matches: string[]
 
 }
 

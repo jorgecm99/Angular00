@@ -19,9 +19,12 @@ const routes: Routes = [
   },
 
   {
-    path:'tickets',
+    path:'tickets:teamID',
     loadChildren: () => import ('./pages/tickets-page/tickets.module').then((module)=>module.TicketsModule)
   },
+
+  
+
 ];
 
 @NgModule({

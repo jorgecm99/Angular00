@@ -11,11 +11,12 @@ import { HeaderComponent } from './core/header/header.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

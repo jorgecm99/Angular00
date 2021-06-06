@@ -490,6 +490,17 @@
       "players": []
     }
 
+  ],
+
+  "tickets":[
+    {
+      "teamID": "1",
+      "teamName": "Arizona Cardinals",
+      "stadium": "State Farm Stadium",
+      "matches": [
+        "Seattle", "San Francisco"
+      ]
+    }
   ]
 }
 

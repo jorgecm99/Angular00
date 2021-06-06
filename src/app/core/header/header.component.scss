@@ -5,18 +5,36 @@ header {
     height: 100px;
     color: $div-team-color;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 2px;
     nav {
         padding: 0 10%;
+        margin: 0 auto;
         .header-list {
             list-style: none;
             display: flex;
-            justify-content: space-evenly;
             li {
                 cursor: pointer;
                 text-transform: uppercase;
                 font-size: x-large;
-                font-weight: 600;
+                font-size: 20px;
+                padding: 10px;
             }
+            
         }
     }
+}
+
+p:hover {
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+
+.logo-container {
+    ul {
+        list-style: none;
+    }
+    margin-left: 20px;
 }
