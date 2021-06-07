@@ -13,4 +13,8 @@ export class TicketsService {
   public getTickets () {
     return this.http.get(this.ticketsNFL)
   }
+
+  public getTicketDetail (paramId: string) {
+    return this.http.get(this.ticketsNFL + '/'+ paramId)
+  }
 }

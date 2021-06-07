@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Ihome } from '../../teams/models/iteams';
+import { Ihome, Itickets } from '../../teams/models/iteams';
 import { HomePageService } from '../services/home-page.service';
 
 @Component({
@@ -22,5 +22,7 @@ export class HomeComponent implements OnInit {
       this.myList = data;
     })
   }
+
+  
 
 }

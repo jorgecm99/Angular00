@@ -2,6 +2,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { TicketsComponent} from './pages/tickets-page/tickets/tickets.component'
+
 const routes: Routes = [
   {
     path:'teams',
@@ -19,9 +21,11 @@ const routes: Routes = [
   },
 
   {
-    path:'tickets:teamID',
+    path:'tickets',
     loadChildren: () => import ('./pages/tickets-page/tickets.module').then((module)=>module.TicketsModule)
   },
+
+  
 
   
 

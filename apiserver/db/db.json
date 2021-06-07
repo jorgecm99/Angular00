@@ -72,7 +72,6 @@
 
   ],
 
-
   "teams":[
     {
       "teamID": "1",
@@ -494,13 +493,24 @@
 
   "tickets":[
     {
-      "teamID": "1",
+      "id": "1",
       "teamName": "Arizona Cardinals",
-      "stadium": "State Farm Stadium",
+      "stadiumName": "State Farm Stadium",
       "matches": [
         "Seattle", "San Francisco"
       ]
+    },
+
+    {
+      "id": "2",
+      "teamName": "Atlanta Falcons",
+      "stadiumName": "State Farm Stadium",
+      "matches": [
+        "Tampa Bay", "New Orleans"
+      ]
     }
   ]
+
+  
 }
 

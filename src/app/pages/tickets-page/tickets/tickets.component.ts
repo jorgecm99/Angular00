@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { TicketsService } from '../services/tickets.service';
 
 @Component({
@@ -7,10 +8,23 @@ import { TicketsService } from '../services/tickets.service';
   styleUrls: ['./tickets.component.scss']
 })
 export class TicketsComponent implements OnInit {
+  public id: string = '';
+  public detailTicket?: any;
 
-  constructor(private ticketsService: TicketsService) { }
+  constructor(private activatedRoute: ActivatedRoute, private ticketsService: TicketsService ) { }
 
   ngOnInit(): void {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.id = params.get('id') as string;
+      this.getTicketDetail()
+    });
   }
+  public getTicketDetail (): void {
+    this.ticketsService.getTicketDetail(this.id).subscribe((data: any) => {
+      this.detailTicket = data;
+    })
+  }
+
+
 
 }

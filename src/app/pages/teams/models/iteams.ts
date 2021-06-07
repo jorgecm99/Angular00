@@ -11,10 +11,10 @@ export interface Ivenue{
 }
 
 export interface Itickets {
-    teamID: number,
+    id: number,
     conference: string,
     teamName: string,
-    stadium: string,
+    stadiumName: string,
     matches: string[]
 
 }

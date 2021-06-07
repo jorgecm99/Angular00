@@ -4,7 +4,7 @@ import { TicketsComponent } from './tickets/tickets.component';
 
 const routes: Routes = [
     {
-        path: '',
+        path: ':id',
         component: TicketsComponent
     }
 ];
