@@ -17,13 +17,14 @@ export class HeaderComponent implements OnInit {
       path:'teams',
     },
     {
-      name:'Players',
-      path:'players',
-    },
-    {
       name:'Tickets',
       path:'tickets',
     },
+
+    {
+      name:'Sign Up',
+      path:'register',
+    }
     
   ]
 

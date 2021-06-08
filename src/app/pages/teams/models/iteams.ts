@@ -23,3 +23,12 @@ export interface Ihome {
     id: number,
     woodmark: string,
 }
+
+export interface Iregister {
+    name:string;
+    password:any;
+    passwordRepeat:any;
+    email:string;
+    phone:number;
+
+}

@@ -16,14 +16,16 @@ const routes: Routes = [
   },
 
   {
-    path:'players',
-    loadChildren: () => import ('./pages/players-page/players.module').then((module)=>module.PlayersModule)
-  },
-
-  {
     path:'tickets',
     loadChildren: () => import ('./pages/tickets-page/tickets.module').then((module)=>module.TicketsModule)
   },
+
+  {
+    path:'register',
+    loadChildren: () => import ('./pages/register-page/register.module').then((module)=>module.RegisterModule)
+  },
+
+  
 
   
 

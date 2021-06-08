@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { HeaderComponent } from './core/header/header.component';
+import { RegisterComponent } from './pages/register-page/register/register.component';
 
 
 
@@ -12,7 +13,7 @@ import { HeaderComponent } from './core/header/header.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
     
 
   ],
