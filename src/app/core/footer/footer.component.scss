@@ -1,0 +1,29 @@
+@import '../../../styles/colors';
+@import '../../../styles/fonts';
+
+footer {
+    background: $footer-color;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $header-text-color;
+    ul {
+        list-style: none;
+        display: inline;
+        margin: 18px auto;
+        li {
+            padding: 10px;
+            font-weight: bold;
+            
+        }
+    }
+}
+
+.footer-image {
+    height: 80px;
+    margin: 18px auto;
+}
+
+.footer-text {
+    margin: auto 30px;
+}
