@@ -28,11 +28,15 @@ export class HeaderComponent implements OnInit {
     
   ]
 
-  constructor() {
+  constructor() {}
 
-   }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  public dropDown = true
+
+  dropDownMenu(){
+    this.dropDown = !this.dropDown
   }
+
 
 }

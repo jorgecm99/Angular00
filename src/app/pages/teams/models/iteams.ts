@@ -27,7 +27,7 @@ export interface Ihome {
 export interface Iregister {
     name:string;
     password:any;
-    passwordRepeat:any;
+    repeatPassword:any;
     email:string;
     phone:number;
 

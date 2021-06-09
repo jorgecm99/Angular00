@@ -1,8 +1,6 @@
-<p>register works!</p>
-
-<ng-container>
+<ng-container *ngIf="registerForm">
     <div class="container">
-        <form class="form" (ngSubmit)="onSubmit()" [formGroup]="registerForm" >
+        <form class="form" (ngSubmit)="onSubmit()" [formGroup]="registerForm">
             <fieldset class="form__item">
                 <label for="name">Nombre y apellidos:</label>
                 <input type="text" id="name" formControlName="name" />
@@ -43,7 +41,7 @@
                     <p>Introduce un teléfono válido.</p>
                 </div>
             </fieldset>
-            <button class="form__button" (click)="onSubmit()">Enviar</button>
+            <button class="form__button" (click)="onSubmit()"></button>
         </form>
     </div>
 </ng-container>

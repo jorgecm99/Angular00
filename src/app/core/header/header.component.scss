@@ -1,51 +1,150 @@
 @import '../../../styles/colors';
+@import '../../../styles/fonts';
+@import '../../../styles/responsive';
 
-header {
-    background-color: $header-color;
-    height: 100px;
-    color: $div-team-color;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 0 2px;
-    nav {
-        padding: 0 10%;
-        margin: 0 auto;
-        .header-list {
-            list-style: none;
-            display: flex;
-            li {
-                cursor: pointer;
-                text-transform: uppercase;
-                font-size: x-large;
-                font-size: 20px;
-                padding: 10px;
-            }
+//MOBILE//
+@media only screen and (min-width: 375px) {
+    header {
+        background-color: $header-color;
+        height: 100px;
+        color: $div-team-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 0 2px;
+        .dropdown {
+            position: absolute;
+            display: inline-block;
+            margin-top: -30px;
             
+                li {
+                    cursor: pointer;
+                    font-size: x-large;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+                
+            }
+        }
+    
+    
+        .dropdown-content {
+            position: absolute;
+            background-color: $header-color;
+            min-width: 160px;
+            opacity: 0.92;
+            overflow: auto;
+            margin-left: 10px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            text-align: center;
+        }
+    
+    .dropdown-content p {
+            color: $header-text-color;
+            padding: 16px 16px;
+            text-decoration: none;
+            display: block;
+    }
+    .dropdown-content p:hover {
+        color: $header-color;
+    }
+          
+    .dropdown p:hover {background-color: $header-text-color;}
+    
+    
+        
+    
+    
+    .logo-container {
+        ul {
+            list-style: none;
+        }
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    
+    
+    .displayNone{
+        display: none;
+    }
+    
+    .dropbtn {
+        background-color: transparent;
+        color: $body-color;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border: 5px solid $body-color;
+        border-radius: 5px;
+        margin: auto 10px;
+    }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+    }
+    
+    .header-second {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+//DESKTOP//
+
+
+@media screen and (min-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .header-second{
+        background-color: $header-color;
+        height: 100px;
+        color: $div-team-color;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px;
+        nav {
+            padding: 0 10%;
+            .header-list {
+                list-style: none;
+                display: flex;
+                li {
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: x-large;
+                    font-size: 20px;
+                    padding: 30px;
+                }
+                
+            }
         }
     }
-}
-
-p:hover {
-    color: white;
-    border-bottom: 1px solid white;
+    
+    p:hover {
+        color: $header-text-color;
+        border-bottom: 1px solid white;
+        
+    }
+    
+    .logo-container-second {
+        ul {
+            list-style: none;
+        }
+        margin-left: 20px;
+    }
+    
     
 }
+    
 
-.logo-container {
-    ul {
-        list-style: none;
-    }
-    margin-left: 20px;
-}
-
-.header-btn {
-    color: $header-text-color;
-    background-color: blue;
-    border-radius: 3px;
-    cursor: pointer;
-    border: none;
-    padding: 8px;
-    margin-right: 20px;
-    font-weight: bold;
-}

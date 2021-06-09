@@ -1,6 +1,31 @@
 <header>
+     <nav>
+         <div class="dropdown">
+            <button class="dropbtn" (click)="dropDownMenu()">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul class="dropdown-content">
+                <li *ngFor="let items of headerNav"
+                [ngClass]="{'displayNone': dropDown}">
+                    <p [routerLink] = "[items.path]">{{items.name}}</p>
+                </li>
+            </ul>
+        </div>    
+    </nav>
+
     
+
     <div class="logo-container">
+        <ul>
+            <li>
+                <a href="nfl.com"><img src="../../../assets/images/nfl-logo-0.png" alt="logo" height="100px"></a>
+            </li>
+        </ul>
+    </div>   
+</header>
+
+<header class="header-second">
+    <div class="logo-container-second">
         <ul>
             <li>
                 <a href="nfl.com"><img src="../../../assets/images/nfl-logo-0.png" alt="logo" height="80px"></a>
@@ -15,8 +40,4 @@
             </li>
         </ul>
     </nav>
-
-    <div>
-        <button class="header-btn">Sign Up</button>
-    </div>
 </header>

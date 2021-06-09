@@ -2,7 +2,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { TicketsComponent} from './pages/tickets-page/tickets/tickets.component'
 
 const routes: Routes = [
   {
@@ -24,12 +23,6 @@ const routes: Routes = [
     path:'register',
     loadChildren: () => import ('./pages/register-page/register.module').then((module)=>module.RegisterModule)
   },
-
-  
-
-  
-
-  
 
 ];
 
