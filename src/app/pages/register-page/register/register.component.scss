@@ -12,7 +12,7 @@
     background-color:$body-color;
     opacity: 0.8;
     box-shadow: 0px 0px 30px lightblue;
-    max-width: 480px;
+    max-width: 380px;
     margin: 20px auto;
     &__item{
         border:none;
@@ -25,7 +25,7 @@
         div{
             p{
                 font-family: 'main__text';
-                color: red;
+                color: black;
                 font-size: 12px;
             }
         }

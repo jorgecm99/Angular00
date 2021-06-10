@@ -3,12 +3,23 @@
 
 .team_container {
     background-color: $div-team-color;
-    .team_container-text {
+    .team_container-location {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 8px;
-        
+        padding-top: 6px;
+        .team_container-text {
+            margin: auto 6px;
+        }
+        .team_container-state {
+            font-weight: bold;
+        }
     }
+    
 }
+
 
 .team_container-name {
     font-family: 'pressstart2p';
@@ -23,7 +34,16 @@
     font-style: regular;   
 }
 
-.team_container-venue {
-    font-family: 'racingonesans';
-    font-style: regular;
+.team_container-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .team_container-venue {
+        font-family: 'racingonesans';
+        font-style: regular;
+        margin: auto 5px;
+    }
 }
+

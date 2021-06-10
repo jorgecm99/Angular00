@@ -15,6 +15,7 @@ export interface Itickets {
     conference: string,
     teamName: string,
     stadiumName: string,
+    stadiumImage: string,
     matches: string[]
 
 }

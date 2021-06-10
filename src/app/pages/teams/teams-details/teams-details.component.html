@@ -1,8 +1,17 @@
 <div class="team_container">
-    <p class="team_container-text">From {{myDetails?.city}}, {{myDetails?.state}}</p>
+    <div class="team_container-location">
+        <i class="fas fa-map-marker"></i>
+        <p class="team_container-text">{{myDetails?.city}},</p>
+        <p class="team_container-state"> {{myDetails?.state}}</p>
+    </div>
     <h3 class="team_container-name">{{myDetails?.teamName}}</h3>
     <p class="team_container-conference">Conference: {{myDetails?.conference}}</p>
-    <p class="team_container-venue">{{myDetails?.homeVenue?.name}}</p>
+    <div class="team_container-div">
+        <i class="fas fa-home"></i>
+        <p class="team_container-venue">{{myDetails?.homeVenue?.name}}</p>
+
+    </div>
+    
 </div>
 
 
