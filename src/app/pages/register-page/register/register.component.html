@@ -18,10 +18,10 @@
                 </div>
             </fieldset>
             <fieldset class="form__item">
-                <label for="passwordRepeat">Repeat the password:</label>
-                <input type="text" id="passwordRepeat" formControlName="passwordRepeat" />
-                <div *ngIf="!registerForm.get('passwordRepeat')!.valid &&
-                (registerForm.get('passwordRepeat')!.dirty || submitted)">
+                <label for="repeatPassword">Repeat the password:</label>
+                <input type="text" id="repeatPassword" formControlName="repeatPassword" />
+                <div *ngIf="!registerForm.get('repeatPassword')!.valid &&
+                (registerForm.get('repeatPassword')!.dirty || submitted)">
                     <p>Las contraseñas deben coincidir.</p>
                 </div>
             </fieldset>

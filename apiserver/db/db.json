@@ -1,78 +1,63 @@
 {
-  "home":[
+  "home": [
     {
       "id": "1",
       "woodmark": "https://content.sportslogos.net/logos/7/177/full/1964_arizona_cardinals-wordmark-2005.png"
     },
-
     {
       "id": "2",
       "woodmark": "https://content.sportslogos.net/logos/7/173/full/6807_atlanta_falcons-wordmark-2020.png"
     },
-
     {
       "id": "3",
       "woodmark": "https://content.sportslogos.net/logos/7/153/full/323.png"
     },
-
     {
       "id": "4",
       "woodmark": "https://content.sportslogos.net/logos/7/149/full/4364_buffalo_bills-wordmark-2011.png"
     },
-
     {
       "id": "5",
       "woodmark": "https://content.sportslogos.net/logos/7/174/full/2979_carolina_panthers-wordmark-1995.png"
     },
-
     {
       "id": "6",
       "woodmark": "https://content.sportslogos.net/logos/7/169/full/366.png"
     },
-
     {
       "id": "7",
       "woodmark": "https://content.sportslogos.net/logos/7/154/full/2234.gif"
     },
-
     {
       "id": "8",
       "woodmark": "https://content.sportslogos.net/logos/7/155/full/9906_cleveland_browns-wordmark-2015.png"
     },
-
     {
       "id": "9",
       "woodmark": "https://content.sportslogos.net/logos/7/165/full/412.gif"
     },
-
     {
       "id": "10",
       "woodmark": "https://content.sportslogos.net/logos/7/161/full/mvxsk3btmpewzxzovglilwc4w.gif"
     },
-
     {
       "id": "11",
       "woodmark": "https://content.sportslogos.net/logos/7/170/full/1546_detroit_lions-wordmark-2017.png"
     },
-
     {
       "id": "12",
       "woodmark": "https://content.sportslogos.net/logos/7/171/full/566.png"
     },
-
     {
       "id": "13",
       "woodmark": "https://content.sportslogos.net/logos/7/157/full/1127_houston_texans-wordmark-2002.png"
     },
-
     {
       "id": "14",
       "woodmark": "https://content.sportslogos.net/logos/7/158/full/8994_indianapolis_colts-wordmark-2020.png"
-    }  
-
+    }
   ],
-
-  "teams":[
+  "teams": [
     {
       "teamID": "1",
       "teamName": "Arizona Cardinals",
@@ -85,7 +70,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "2",
       "teamName": "Atlanta Falcons",
@@ -98,7 +82,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "3",
       "teamName": "Baltimore Ravens",
@@ -111,7 +94,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "4",
       "teamName": "Buffalo Bills",
@@ -124,7 +106,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "5",
       "teamName": "Carolina Panthers",
@@ -137,7 +118,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "6",
       "teamName": "Chicago Bears",
@@ -150,7 +130,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "7",
       "teamName": "Cincinnati Bengals",
@@ -163,7 +142,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "8",
       "teamName": "Cleveland Browns",
@@ -176,7 +154,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "9",
       "teamName": "Dallas Cowboys",
@@ -189,7 +166,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "10",
       "teamName": "Denver Broncos",
@@ -202,7 +178,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "11",
       "teamName": "Detroit Lions",
@@ -215,7 +190,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "12",
       "teamName": "Green Bay Packers",
@@ -228,7 +202,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "13",
       "teamName": "Houston Texans",
@@ -241,7 +214,6 @@
       },
       "players": []
     },
-
     {
       "teamID": "14",
       "teamName": "Indianapolis Colts",
@@ -255,134 +227,142 @@
       "players": []
     }
   ],
-
-  "tickets":[
+  "tickets": [
     {
       "id": "1",
       "teamName": "Arizona Cardinals",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Seattle", "San Francisco"
+        "Seattle",
+        "San Francisco"
       ]
     },
-
     {
       "id": "2",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "3",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "4",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "5",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "6",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "7",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "8",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "9",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "10",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "11",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "12",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "13",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     },
-
     {
       "id": "14",
       "teamName": "Atlanta Falcons",
       "stadiumName": "State Farm Stadium",
       "matches": [
-        "Tampa Bay", "New Orleans"
+        "Tampa Bay",
+        "New Orleans"
       ]
     }
+  ],
+  "register": [
+    {
+      "name": "Jorge",
+      "password": "12345678",
+      "repeatPassword": "12345678",
+      "email": "Jcorcoles86@gmail.com",
+      "phone": "675863511",
+      "id": 1
+    }
   ]
-
 }
-
