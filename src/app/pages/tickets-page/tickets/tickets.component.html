@@ -1,8 +1,9 @@
 <div class="teams__tickets-detail">
-    <h4>Event venue: {{ detailTicket.stadiumName }}</h4>
-    <p>The {{ detailTicket.teamName }}</p><span>vs</span> the {{ detailTicket.matches[0] }}
+    <h4>Event venue: {{ detailTicket?.stadiumName }}</h4>
+    <p>{{ detailTicket?.teamName }}<span> vs </span>{{ detailTicket?.matches[0] }}</p>
+
+    <fieldset>
+        <label for=""></label>
+        <input type="text">
+    </fieldset>
 </div>
-<fieldset>
-    <label for=""></label>
-    <input type="text">
-</fieldset>

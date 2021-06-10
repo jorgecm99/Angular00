@@ -7,15 +7,20 @@
     padding:10px;
     border: solid;
     border-width: 5px;
-    border-color: blue;
-    background-color: orange;
-    box-shadow: 0px 0px 30px blue;
+    border-color: lightblue;
+    border-radius: 10px;
+    background-color:$body-color;
+    opacity: 0.8;
+    box-shadow: 0px 0px 30px lightblue;
+    max-width: 480px;
+    margin: 20px auto;
     &__item{
         border:none;
         display:flex;
         flex-direction: column;
         label{
-            font-family: 'main__content';
+            font-family: 'be_vietnam';
+            font-style: light;
         }
         div{
             p{
@@ -25,4 +30,21 @@
             }
         }
     }
+}
+
+
+.btn-style {
+    justify-self: center;
+    align-self: center;
+    margin-top:10px;
+    padding: 4px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: $header-text-color;
+    background-color: $header-color;
+    color: $header-text-color;
+    font-family: 'cambay';
+    font-style: regular;
+
 }

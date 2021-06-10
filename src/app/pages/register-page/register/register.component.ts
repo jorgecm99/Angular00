@@ -32,7 +32,7 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {};
 
-  public onSubmit () {
+  public onSubmit (): void {
 
     this.submitted=true;
 
