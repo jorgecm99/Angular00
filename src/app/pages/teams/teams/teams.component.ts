@@ -9,8 +9,7 @@ import { IteamsService } from '../services/iteams.service';
   styleUrls: ['./teams.component.scss']
 })
 export class TeamsComponent implements OnInit {
-  public myTeams?: Iteams[]=[];
-  public currentTeam?: Iteams;
+  public myTeams?: Iteams[];
 
   constructor(private iteamsService: IteamsService) {}
 
@@ -21,7 +20,6 @@ export class TeamsComponent implements OnInit {
   public getTeams(): void {
     this.iteamsService.getTeams().subscribe((data : any) =>{
       this.myTeams = data;
-      this.currentTeam = this.myTeams? this.myTeams[0]: undefined;
     })
   }
 

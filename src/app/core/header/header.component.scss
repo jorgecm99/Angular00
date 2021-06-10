@@ -23,6 +23,8 @@
                     font-size: 20px;
                     padding: 10px;
                 }
+
+                
                 
             }
         }
@@ -45,6 +47,8 @@
             padding: 16px 16px;
             text-decoration: none;
             display: block;
+            font-family: 'Be_Vietnam';
+            font-size: light;
     }
     .dropdown-content p:hover {
         color: $header-color;
@@ -125,6 +129,11 @@
                     font-size: x-large;
                     font-size: 20px;
                     padding: 30px;
+                    
+                }
+                p {
+                    font-family: 'be_vietnam';
+                    color: $header-text-color;
                 }
                 
             }

@@ -1,5 +1,29 @@
 @import '../../../../styles/colors';
+@import '../../../../styles/fonts';
 
-div {
-    background-color: $header-text-color;
+.team_container {
+    background-color: $div-team-color;
+    .team_container-text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 8px;
+        
+    }
+}
+
+.team_container-name {
+    font-family: 'pressstart2p';
+    font-style: regular;
+    font-size: large;
+    margin: 10px auto;
+
+}
+
+.team_container-conference {
+    font-family: 'cambay';
+    font-style: regular;   
+}
+
+.team_container-venue {
+    font-family: 'racingonesans';
+    font-style: regular;
 }

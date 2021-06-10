@@ -1,7 +1,7 @@
 <div class="team-class">
     <ul *ngFor = "let name of myTeams">
         <img src="{{name.logo}}">
-        <app-teams-details [myDetails]="currentTeam"></app-teams-details>
+        <app-teams-details [myDetails]="name"></app-teams-details>
     </ul>
 </div>
 

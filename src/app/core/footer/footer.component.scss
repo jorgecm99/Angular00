@@ -14,13 +14,19 @@ footer {
         li {
             padding: 10px;
             font-weight: bold;
+            font-family: 'cambay';
+            font-style: regular;
             
         }
     }
 }
 
+.footer-text {
+    font-family: 'muktamalar';
+    font-style: light;
+}
 .footer-image {
-    height: 80px;
+    height : 80px;
     margin: 18px auto;
 }
 
