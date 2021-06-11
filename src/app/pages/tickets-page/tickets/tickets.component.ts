@@ -58,6 +58,8 @@ export class TicketsComponent implements OnInit {
       this.eventMatch.reset();
       this.ticketService.postParticipants(this.user).subscribe((data) => {
         this.newParticipantEvent.emit();
+        console.log('tickets');
+        alert( `You have applied for ${this.user.quantity} tickets for the match vs ${this.user.name}. An email has been sent to ${this.user.email} for more details.`)
     });
     }
   }

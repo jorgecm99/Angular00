@@ -142,11 +142,11 @@
         }
     }
 
-    li:hover {
+    .list-style:hover {
         background:$body-color;
     }
     
-    li:hover:nth-last-child(1) {
+    .list-style:hover:nth-last-child(1) {
         background: red;
     }
     
