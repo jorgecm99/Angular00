@@ -1,9 +1,32 @@
 <div class="teams__tickets-detail">
+    <img src="{{ detailTicket?.stadiumImage }}" alt="">
     <h4>Event venue: {{ detailTicket?.stadiumName }}</h4>
-    <p>{{ detailTicket?.teamName }}<span> vs </span>{{ detailTicket?.matches[0] }}</p>
+    <p>Match: {{ detailTicket?.matches[0] }}<span> @ </span>{{ detailTicket?.teamName }}</p>
 
-    <fieldset>
-        <label for=""></label>
-        <input type="text">
-    </fieldset>
+    <ng-container *ngIf="eventMatch">
+        <div class="container">
+            <form class="form" (ngSubmit)="onSubmit()" [formGroup]="eventMatch">
+                <fieldset class="form__item">
+                    <label for="name">Match:</label>
+                    <input type="text" id="name" formControlName="name" />
+                </fieldset>
+                <fieldset class="form__item">
+                    <label for="quantity">No of tickets:</label>
+                    <input type="quantity" id="quantity" formControlName="quantity" />
+                </fieldset>
+
+                <fieldset class="form__item">
+                    <label for="place">Place of tickets:</label>
+                    <input type="place" id="place" formControlName="place" />
+                </fieldset>
+
+                <fieldset class="form__item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" formControlName="email" />
+                </fieldset>
+                <button class="btn-style" (click)="onSubmit()">Apply</button>
+            </form>
+        </div>
+    </ng-container>
+    
 </div>

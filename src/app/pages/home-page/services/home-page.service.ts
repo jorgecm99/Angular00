@@ -5,6 +5,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 }) 
 export class HomePageService {
+  getParticipants() {
+    throw new Error('Method not implemented.');
+  }
   public homeNFL: string = 'http://localhost:3000/home';
 
   constructor(private http: HttpClient) { }

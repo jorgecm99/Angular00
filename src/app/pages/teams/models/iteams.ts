@@ -33,3 +33,10 @@ export interface Iregister {
     phone:number;
 
 }
+
+export interface InewTicket {
+    name: string,
+    quantity: number,
+    place: string,
+    email: string
+}

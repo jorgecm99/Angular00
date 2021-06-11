@@ -5,6 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
+    path:'',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+
+  {
     path:'teams',
     loadChildren: () => import ('./pages/teams/teams.module').then((module) => module.TeamsModule)
   },

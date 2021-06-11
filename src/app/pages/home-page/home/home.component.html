@@ -1,8 +1,6 @@
 <div class="home-class" >
     <ul *ngFor = "let name of myList">
-        <h1>{{name.id}}</h1>
-        <img src="{{name.woodmark}}">
-        <a [routerLink]="['/tickets', name.id]">Ver usuario</a>
+        <a [routerLink]="['/tickets', name.id]"><img src="{{name.woodmark}}"></a>
     </ul>   
 </div>
 

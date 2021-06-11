@@ -128,23 +128,28 @@
                     text-transform: uppercase;
                     font-size: x-large;
                     font-size: 20px;
-                    padding: 30px;
+                    padding: 20px;
+                
                     
                 }
                 p {
                     font-family: 'be_vietnam';
                     color: $header-text-color;
+                    
                 }
                 
             }
         }
     }
-    
-    p:hover {
-        color: $header-text-color;
-        border-bottom: 1px solid white;
-        
+
+    li:hover {
+        background:$body-color;
     }
+    
+    li:hover:nth-last-child(1) {
+        background: red;
+    }
+    
     
     .logo-container-second {
         ul {

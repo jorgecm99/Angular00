@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
+import { TicketService } from 'src/app/shared/tickets/ticket.service';
 import { TicketsService } from '../services/tickets.service';
 
 @Component({
@@ -10,8 +12,25 @@ import { TicketsService } from '../services/tickets.service';
 export class TicketsComponent implements OnInit {
   public id: string = '';
   public detailTicket?: any;
+  @Output() newParticipantEvent = new EventEmitter<void>();
 
-  constructor(private activatedRoute: ActivatedRoute, private ticketsService: TicketsService ) { }
+  
+  public eventMatch: FormGroup;
+  public submitted = false;
+  public user!: any;
+
+
+
+  constructor(private activatedRoute: ActivatedRoute, private ticketsService: TicketsService,
+    public ticketService: TicketService, public formBuilder:FormBuilder ) {
+      this.eventMatch = this.formBuilder.group({
+        name: ['', [Validators.required]],
+        quantity: ['', [Validators.required]],
+        place: ['', [Validators.required]],
+        email: ['', [Validators.required]],
+      });
+  
+     }
 
   ngOnInit(): void {
     this.activatedRoute.paramMap.subscribe(params => {
@@ -24,6 +43,25 @@ export class TicketsComponent implements OnInit {
       this.detailTicket = data;
     })
   }
+
+  public onSubmit(): void {
+    this.submitted = true;
+
+    if (this.eventMatch.valid){
+      this.user = {
+        name: this.eventMatch.get('name')?.value,
+        quantity: this.eventMatch.get('quantity')?.value,
+        place: this.eventMatch.get('place')?.value,
+        email: this.eventMatch.get('email')?.value,
+      };
+      this.submitted = false;
+      this.eventMatch.reset();
+      this.ticketService.postParticipants(this.user).subscribe((data) => {
+        this.newParticipantEvent.emit();
+    });
+    }
+  }
+
 
 
 

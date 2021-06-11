@@ -35,7 +35,7 @@
     
     <nav>
         <ul class="header-list">
-            <li *ngFor="let items of headerNav">
+            <li class="list-style" *ngFor="let items of headerNav">
                 <p [routerLink] = "[items.path]">{{items.name}}</p>
             </li>
         </ul>

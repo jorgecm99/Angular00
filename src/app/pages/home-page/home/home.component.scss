@@ -1,3 +1,6 @@
+@import '../../../../styles/colors';
+@import '../../../../styles/fonts';
+
 .home-class {
     
     display: flex;
@@ -7,10 +10,15 @@
     flex-wrap: wrap;
     width: 100%;
     ul {
-        max-width: 360px;
+        max-width: 380px;
         margin: 20px auto;
+        background: $header-text-color;
+        border: 5px solid $footer-color;
+        border-radius: 10px;
         img {
-            width: 100%;
+            width: 90%;
+            padding: 10px 20px;
+
         }
 
     }

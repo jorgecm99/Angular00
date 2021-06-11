@@ -1,0 +1,10 @@
+<div class="container">
+    <ul class="participants">
+        <li class="participants__item" *ngFor="let participant of results">
+            <h3>{{participant.name}}</h3>
+            <p>{{participant.quantity}}</p>
+            <p>{{participant.place}}</p>
+            <p>{{participant.email}}</p>
+        </li>
+    </ul>
+</div>
